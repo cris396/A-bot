@@ -29,11 +29,11 @@ global.languaje = 'Español'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = '【 เαɳ ɓσƭ - MƊ 】'
-global.botname = 'Iαɳ Bσƚ - MD'
-global.wm = 'Bσƚ ιαɳ MD - ιαɳαʅҽʝαɳԃɾσσƙ15x'
-global.author = 'ιαɳαʅҽʝαɳԃɾσσƙ15x 🌸'
-global.dev = 'Pσɯҽɾҽԃ Bყ Iαɳ 🌙'
-global.textbot = 'Iαɳ Bσƚ : Iαɳαʅҽʝαɳԃɾσσƙ15x'
+global.botname = 'Emmu'
+global.wm = 'Los lindos siempre sufrimos - Cris'
+global.author = 'Emmu'
+global.dev = 'Powered by emmu'
+global.textbot = 'Emmu : Emma'
 global.vs = '3.0.4'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
