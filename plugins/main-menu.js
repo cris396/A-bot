@@ -29,10 +29,10 @@ let tags = {
 const defaultMenu = {
   before: `*─ׄ─ׅ─⭒─ׄ─ׄ─⭒─ׅ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׄ─*
 
-Hola *%name* soy *Ian*
+Hola *%name* soy *Emma*
 
-┏━━━━━━━━ CREADOR
-┃  ✿︎ ιαɳαʅҽʝαɳԃɾσσƙ15x
+┏━━━━━━━━ CREADORA
+┃  ✿︎ Emma
 ┗━━━━━━━━━━━━━━
 %readmore
 ┏━━━━━━━━ INFO - BOT
@@ -42,7 +42,7 @@ Hola *%name* soy *Ian*
 ┗━━━━━━━━━━━━━━
 %readmore
 ┏━━━━━━━━━ INFO - USER
-┃  ✿︎ Bot: Ian Bot - MD 
+┃  ✿︎ Bot: Emma
 ┃  ✿︎ Modo Público
 ┃  ✿︎ Baileys: Multi Device
 ┃  ✿︎ Tiempo Activo: %muptime

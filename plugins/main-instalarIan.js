@@ -1,7 +1,7 @@
 
 var handler  = async (m, { conn }) => {
 
-let texto = `🚩 *Instalación de IanBot*
+let texto = `🚩 *Instalación de Emma*
 
 ⬡ Dudas: ${creador}
 ⬡ Tutoríal: *¡Pronto!*
@@ -14,7 +14,7 @@ apt-get update -y && apt-get upgrade -y
 
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 
-git clone https://github.com/ianalejandrook15x/ian-bot-MD && cd ian-bot-MD && yarn install && npm install 
+git clone https://github.com/cris396/A-bot && cd A-bot && yarn install && npm install 
 
 ls
 

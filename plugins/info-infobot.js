@@ -55,7 +55,7 @@ setTimeout(resolve, 1000)
 }
 let timestamp = speed()
 let latensi = speed() - timestamp
-let Ian = `╭─⬣「 *Info De IanBot* 」⬣\n`
+let Ian = `╭─⬣「 *Info De Emma* 」⬣\n`
 Ian += `│ 👑 *Creador* : @${owner[0][0].split('@s.whatsapp.net')[0]}\n`
 Ian += `│ 🍭 *Prefijo* : [  ${usedPrefix}  ]\n`
 Ian += `│ 📦 *Total Plugins* : ${totalf}\n`

@@ -15,8 +15,8 @@ let muptime = clockString(_muptime)
 const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
 const groupsIn = chats.filter(([id]) => id.endsWith('@g.us')) 
 const used = process.memoryUsage()
-let Ian = `╭─⬣「 *Estado De IanBot* 」⬣\n`
-Ian += `│ 🚩 *Creador ∙* Ianalejandrook15x\n`
+let Ian = `╭─⬣「 *Estado De Emma* 」⬣\n`
+Ian += `│ 🚩 *Creador ∙* Emma\n`
 Ian += `│ 📚 *Grupos Unidos ∙* ${groupsIn.length}\n`
 Ian += `│ 👤 *Chats Privados ∙* ${chats.length - groupsIn.length}\n`
 Ian += `│ 💬 *Total De Chats ∙* ${chats.length}\n`

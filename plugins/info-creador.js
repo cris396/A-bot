@@ -17,14 +17,14 @@ export default handler
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let pp = await conn.profilePictureUrl(who).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
-let biografia = await conn.fetchStatus('5493876432076' +'@s.whatsapp.net').catch(_ => 'Hσʅα ɱҽ ʅʅαɱσ Iαɳ ყ ʂσყ ԃυҽñσ ԃҽ IAN-BOT')
-let biografiaBot = await conn.fetchStatus(`${conn.user.jid.split('@')[0]}` +'@s.whatsapp.net').catch(_ => 'Hσʅα ɱҽ ʅʅαɱσ Iαɳ ყ ʂσყ ԃυҽñσ ԃҽ IAN-BOT')
-let bio = biografia.status?.toString() || 'Hσʅα ɱҽ ʅʅαɱσ Iαɳ ყ ʂσყ ԃυҽñσ ԃҽ IAN-BOT'
-let biobot = biografiaBot.status?.toString() || 'Hσʅα ɱҽ ʅʅαɱσ Iαɳ ყ ʂσყ ԃυҽñσ ԃҽ IAN-BOT'
+let biografia = await conn.fetchStatus('5493876432076' +'@s.whatsapp.net').catch(_ => 'Hola me llamo Emma')
+let biografiaBot = await conn.fetchStatus(`${conn.user.jid.split('@')[0]}` +'@s.whatsapp.net').catch(_ => 'Hola me llamo Emma')
+let bio = biografia.status?.toString() || 'Hola me llamo Emma'
+let biobot = biografiaBot.status?.toString() || 'Hola me llamo Emma'
 let name = await conn.getName(who)
 
 await sendContactArray(conn, m.chat, [
-[`5493876639332`, `🌙 Propietario`, `🌸 ιαɳαʅҽʝαɳԃɾσσƙ15x `, dev, correo, `🎌 Tokio`, `${yt}`, bio],
+[`17062525163`, `🌙 Propietario`, `Emma `, dev, correo, `🎌 Tokio`, `${yt}`, bio],
 [`${conn.user.jid.split('@')[0]}`, `Eʂ υɳ ზσƚ`, `${wm}`, `📵 Nσ ԋαƈҽɾ ʂραɱ`, correo, `🎌 Tokio`, md, biobot]
 ], m)
 
